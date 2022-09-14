@@ -1,0 +1,57 @@
+table{
+    width:100%;
+    border: 1px solid rgb(193, 196, 199);
+    border-collapse: collapse;
+}
+.icon{
+border: 1px solid grey;
+width: 250px;
+display:flex;
+float: right;
+border-top: none;
+border-bottom: none;
+}
+::placeholder
+{
+    color: black;
+}
+td{
+    color: rgb(193, 196, 199);
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(44, 46, 48);
+}
+
+.log-data{
+   line-height: 40px;
+   border-bottom: grey;
+    color: grey;
+}
+.search{
+    border: none;
+    font-size: 12px;
+    width: 120px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+
+    
+}
+.hash{
+    padding: 10px;
+}
+.row{
+    margin: 20px;
+}
+tr{
+    border-bottom: 1px solid rgb(193, 196, 199);
+    line-height: 35px;
+}
+.top-row{
+border-bottom: 1.4px solid rgb(192, 186, 186);
+}

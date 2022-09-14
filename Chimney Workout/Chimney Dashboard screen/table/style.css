@@ -1,0 +1,24 @@
+
+table{
+    border: 1px solid rgb(189, 186, 186);
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    font-size: small;
+    border: 1px solid rgb(189, 186, 186);
+    padding: 10px 30px 10px 10px;
+}
+td{
+    color: #8B8B8B;
+    border: 1px solid rgb(189, 186, 186);
+    padding: 7px 30px 7px 10px;
+    font-size:12px;
+}
+td:first-child {
+    padding-left: 20px;
+  }
+th:first-child {
+    padding-left: 20px;
+  }
+tr:nth-child(odd){background-color:rgba(139, 139, 139, 0.06);}
