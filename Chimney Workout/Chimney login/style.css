@@ -1,5 +1,5 @@
-body{
-    background-color: #F1F2F2; 
+body {
+    background-color: #F1F2F2;
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-position: center right;
@@ -8,36 +8,41 @@ body{
     display: block;
     background-size: 70%;
 
-    
+
 }
-.top-div{
+
+.top-div {
     padding-left: 160px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
-.logo{
-    padding-top:60px;
+
+.logo {
+    padding-top: 60px;
     height: 35px;
     width: 153px;
 }
-.heading{
-    padding-top: 35px;
+
+.heading {
+    padding-top: 30px;
 
     font-size: 35px;
-    margin-bottom: 0;   
+    margin-bottom: 0;
 }
 
-.top-p{
+.top-p {
     width: 450px;
     color: #202127;
 }
-p{
+
+p {
 
     font-size: 12px;
     padding: 5px 0 15px 0;
     line-height: 18px;
-    
+
 }
-.input-div{
+
+.input-div {
     display: flex;
     padding: 10px;
     background-color: white;
@@ -45,9 +50,10 @@ p{
     border-radius: 5px;
     margin-bottom: 0px;
     cursor: pointer;
-    
+
 }
-.input{
+
+.input {
     max-width: 150px;
     height: 20px;
     box-sizing: border-box;
@@ -60,7 +66,7 @@ p{
     width: 17px;
 }
 
-.btn{
+.btn {
     background-color: #B35291;
     border: 0;
     width: 200px;
@@ -71,50 +77,55 @@ p{
     cursor: pointer;
 
 }
-.top-link{
+
+.top-link {
     color: #5C606B;
     text-decoration-line: underline;
     padding-left: 40px;
-    
-    
+
+
 }
 
-.bottom-div{
+.bottom-div {
 
-    padding-top:30px;
+    padding-top: 30px;
     border-top: 1px solid #d1dbdb;
-    background-color:  #EDEFEF;
+    background-color: #EDEFEF;
     /* padding-left: 160px; */
     color: #5C606B;
     display: flex;
 
 }
-.logo-bottom{
+
+.logo-bottom {
     height: 24px;
-    width: 153px;  
+    width: 153px;
     padding-left: 145px;
-          
+
 }
-.bottom-p{
+
+.bottom-p {
     width: 170px;
     height: 63px;
     padding-left: 160px;
 }
 
-ul{
-  
+ul {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 li {
-   
+
     padding-left: 160px;
     padding-bottom: 8px;
- 
-    
+
+
 }
-a{
+
+a {
     text-decoration: none;
     color: #5C606B;
     font-size: 11px;
